@@ -1,0 +1,6 @@
+zcode-rs 是独立编写的 Rust + GPUI 程序，按 ZCode 公开文档中的产品行为重新实现编码代理的核心路径：会话、模型调用循环、工具、扩展点和桌面界面。
+
+它不是 Z.ai 的官方客户端，不包含 https://github.com/zai-org/ZCode 的源代码。
+ZCode 由 Z.AI Co., Ltd. 以 Apache License 2.0 发布。本目录中的新代码同样以 Apache License 2.0 授权，全文见 LICENSE。
+
+界面基于 Zed 的 gpui crate（Apache-2.0）。名称 zcode-rs 只用来标明它对齐的是哪一类产品，不表示与 Z.ai 存在关联或授权关系。
